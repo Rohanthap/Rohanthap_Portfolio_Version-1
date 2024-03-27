@@ -1,0 +1,11 @@
+#nav-bar {
+    overflow:hidden;
+}
+#nav-bar h2 {
+    float:left;
+    margin-right:30px;
+    cursor:pointer;
+}
+.tabs {
+    display:none
+}
