@@ -9,3 +9,8 @@
 .tabs {
     display:none
 }
+#nav-bar {
+    position: absolute;
+    margin-left: 100px;
+    top: 40%;
+  }
