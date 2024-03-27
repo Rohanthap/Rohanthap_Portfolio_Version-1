@@ -13,4 +13,10 @@
     position: absolute;
     margin-left: 100px;
     top: 40%;
-  }
+}
+#header {
+    background-color: bisque;
+}
+.tab-link {
+    padding: 5px;
+}
