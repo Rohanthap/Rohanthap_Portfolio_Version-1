@@ -4,9 +4,10 @@ $("#header-home").on('click', function () {
     $("#experience").hide();
     $("#header-name").css("display", "block")
     $("#header-name").css("float", "none")
-    $("#nav-bar").css("position", "absolute")
+    $("#header").css("background-color", "transparent")
+    $("#header").css("position", "absolute")
     $("#nav-bar").css("margin-left", "100px")
-    $("#nav-bar").css("top", "40%")
+    $("#header").css("top", "40%")
 });
 $("#header-about").on('click', function () {
     $("#about-me").show();
@@ -14,9 +15,10 @@ $("#header-about").on('click', function () {
     $("#experience").hide();
     $("#header-name").css("display", "inline")
     $("#header-name").css("float", "left")
-    $("#nav-bar").css("position", "static")
+    $("#header").css("background-color", "#0A1526")
+    $("#header").css("position", "fixed")
     $("#nav-bar").css("margin-left", "50px")
-    $("#nav-bar").css("top", "10px")
+    $("#header").css("top", "10px")
 });
 $("#header-education").on('click', function () {
     $("#education").show();
@@ -24,9 +26,10 @@ $("#header-education").on('click', function () {
     $("#experience").hide();
     $("#header-name").css("display", "inline")
     $("#header-name").css("float", "left")
-    $("#nav-bar").css("position", "static")
+    $("#header").css("background-color", "#0A1526")
+    $("#header").css("position", "fixed")
     $("#nav-bar").css("margin-left", "50px")
-    $("#nav-bar").css("top", "10px")
+    $("#header").css("top", "10px")
 });
 $("#header-experience").on('click', function () {
     $("#experience").show();
@@ -34,7 +37,8 @@ $("#header-experience").on('click', function () {
     $("#about-me").hide();
     $("#header-name").css("display", "inline")
     $("#header-name").css("float", "left")
-    $("#nav-bar").css("position", "static")
+    $("#header").css("background-color", "#0A1526")
+    $("#header").css("position", "fixed")
     $("#nav-bar").css("margin-left", "50px")
-    $("#nav-bar").css("top", "10px")
+    $("#header").css("top", "10px")
 });
