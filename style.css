@@ -28,5 +28,27 @@ body {
     color: white;
 }
 .tab-link {
+    display: inline-block;
+    position: relative;
+    color: #019cd4;
     padding: 5px;
+}
+.tab-link:hover {
+    color: #0381af;
+}
+.tab-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0381af;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.tab-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
